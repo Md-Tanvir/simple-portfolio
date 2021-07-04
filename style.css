@@ -1,38 +1,72 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-.top-section{
-    display: flex;
-    background-image: url('images/top-banner.png');
-    background-repeat: no-repeat;
+.top-section {
+  display: flex;
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
 }
-.half-width{
-    width: 50%;   
-    padding: 40px 100px;
+.half-width {
+  width: 50%;
+  padding: 40px 100px;
 }
-.top-section-content h1{
-    font-size: 50px;
+.top-section-content h1 {
+  font-size: 50px;
 }
-.top-section-content h1 span{
-    color: orange;
+.top-section-content h1 span {
+  color: orange;
 }
-.top-section-content a, .second-section-content a{
-    display: inline-block;
-    padding: 13px 30px;
-    color: white;
-    background: linear-gradient(to right,lightsalmon, tomato);
-    font-weight:bold;
-    text-decoration: none;
-    border-radius: 4px;
+.top-section-content a,
+.second-section-content a {
+  display: inline-block;
+  padding: 13px 30px;
+  color: white;
+  background: linear-gradient(to right, lightsalmon, tomato);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
 }
-.top-section-img img ,.second-section-img img{
-    width: 90%;
+.top-section-img img,
+.second-section-img img {
+  width: 90%;
 }
-.second-section{
-    display: flex;
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.second-section {
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.third-box {
+  display: flex;
+}
+.full-stack,
+.baby-stack {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  box-shadow: 0px 0px 35px grey;
+  border-left: 8px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  padding: 0 5px 80px 30px;
+}
+.third-box h1,
+.third-section h1 {
+  font-size: 40px;
+}
+.full-stack h3,
+.baby-stack h3 {
+  color: orange;
+}
+.full-stack p,
+.baby-stack p {
+  color: rgb(88, 88, 88);
+}
+.third-section {
+  margin-bottom: 200px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
 }
